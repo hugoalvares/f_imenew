@@ -7,24 +7,38 @@
 	<meta charset="UTF-8">
 	<title>imenew</title>
 </head>
-<body onload="js.buildGroups();">
+<body>
 	<div class="wrapper">
 		<div class="topo">
 			<div class="logo" onclick="js.showFuncoes()">
 				
 			</div>
 			<div class="topo_texto">
-				cardápio
+				conferir pedido
 			</div>
 		</div>
-		<div id="listaGrupos">
 
+		<div class="trash"></div>
+		<div class="produto_conf">
+			pizza maguerita
+			<div class="produto_preco">
+				1 x R$ 6,50
+			</div>
 		</div>
+
+		<div class="trash"></div>
+		<div class="produto_conf">
+			2 x coca cola lata
+			<div class="produto_preco">
+				2 x R$ 4,00
+			</div>			
+		</div>
+
         <div class="push"></div>
     </div>	
 	<div class="footer">
-        <div class="voltar" onclick="js.bandeiraClick()">voltar</div>
-        <div class="cart" onclick="js.showConferir()"></div>
+        <div class="voltar" onclick="js.mapaClick()">voltar</div>
+        <div class="adicionar" onclick="js.transmitir();">transmitir</div>
     </div>
 </body>
 </html>
