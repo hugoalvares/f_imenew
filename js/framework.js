@@ -13,11 +13,15 @@ var js = {
     },
 
     adicionar : function() {
-    	window.location.href = 'cardapio.html';
+    	window.location.href = 'solicitaracesso.html';
     },
 
     loadIndex : function(){
-        window.location.href = 'index.html';
+        window.location.href = 'idioma.html';
+    },
+
+    showIdioma : function(){
+        window.location.href = 'idioma.html';
     },
 
     showConferir : function(){
@@ -45,11 +49,10 @@ var js = {
         grupos.push('pizzas');
         grupos.push('saladas');
         grupos.push('vinhos');
-        grupos.push('refrigerantes');
 
         var html = '';
         for (var idx in grupos) {
-            html = html + '<div id="' + grupos[idx] + '" class="grupo" onclick="js.mostraProdutos(this.id);">' + grupos[idx] + '</div><div id="produtos' + grupos[idx] + '" class="produtos"></div>';
+            html = html + '<div id="' + grupos[idx] + '" class="novogrupo' + grupos[idx] + '" onclick="js.mostraProdutos(this.id);"></div><div id="produtos' + grupos[idx] + '" class="produtos"></div>';
         }
 
         $('#listaGrupos').html(html);        
@@ -62,6 +65,11 @@ var js = {
 
     solicitarConta : function() {
         alert('conta solicitada com sucesso');
+        js.showFuncoes();
+    },    
+
+    solicitaracesso : function() {
+        alert('acesso solicitado com sucesso');
         js.showFuncoes();
     },    
 

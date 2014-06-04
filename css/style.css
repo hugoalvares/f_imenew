@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.bglaranja {
+	background-color: orange;
+}
 .topo {
 	width: 100%;
 	height: 50px;
@@ -14,7 +17,7 @@ body {
 	font-family: Comic Sans MS;
 }
 .logo {
-	background-image: url('../img/menu.png');
+	background-image: url('../img/menu2.png');
 	width: 50px;
 	height: 70px;
 	background-repeat: no-repeat;
@@ -23,47 +26,57 @@ body {
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
+.imenew {
+	background-image: url('../img/logo.png');
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	position: absolute;
+	background-size: 100%;	
+	margin-top: 180px;
+	margin-bottom: 30px;
+}
 .fazerpedido {
-	background-image: url('../img/fazerpedido.png');
+	background-image: url('../img/fazerpedido2.png');
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-left: 20px;
+	margin-left: 78px;
 	position: absolute;
-	margin-top: 10px;
+	margin-top: 38px;
 	margin-bottom: 30px;
 }
 .solicitarconta {
-	background-image: url('../img/solicitarconta.png');
+	background-image: url('../img/solicitarconta2.png');
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-left: 20px;
+	margin-left: 78px;
 	position: absolute;
-	margin-top: 10px;
+	margin-top: 38px;
 	margin-bottom: 30px;
 }
 .chamargarcom {
-	background-image: url('../img/chamargarcom.png');
+	background-image: url('../img/chamargarcom2.png');
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-left: 20px;
+	margin-left: 78px;
 	position: absolute;
-	margin-top: 10px;
+	margin-top: 38px;
 	margin-bottom: 30px;
 }
 .funcoes {
 	font-family: Comic Sans MS;
-	margin-top: 20px;
-	color: orange;
-	margin-left: 70px;
+	margin-top: 48px;
+	margin-left: 130px;
 }
 .cart {
-	background-image: url('../img/cart.png');
+	background-image: url('../img/cart2.png');
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
@@ -113,6 +126,12 @@ body {
 	font-size: 1.0em;
 	margin-left: 20px;
 	margin-top: 10px;
+}
+.solicitar {
+	font-family: Comic Sans MS;;
+	font-size: 1.0em;
+	text-align: center;
+	margin-top: 50px;
 }
 .produto2 {
 	font-family: Comic Sans MS;;
@@ -165,7 +184,31 @@ body {
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	background-color: orange; 
+	background-color: #c88f22; 
+}
+.novogrupopizzas {
+	background-image: url('../img/pizzas.png');
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	margin-top: 25px;
+}
+.novogruposaladas {
+	background-image: url('../img/saladas.png');
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	margin-top: 25px;
+}
+.novogrupovinhos {
+	background-image: url('../img/vinhos.jpg');
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	margin-top: 25px;
 }
 * {
 	margin: 0;
